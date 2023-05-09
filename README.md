@@ -1,3 +1,3 @@
 # mbti_Gomjelly
 https://mymooss.github.io/mbti_Gomjelly/
-![enfj](https://user-images.githubusercontent.com/106878420/236752325-6cbf74a1-305b-4dec-a742-1514d2942607.png)
+<img src ="https://user-images.githubusercontent.com/106878420/236966617-2416ea75-e1e5-4bc2-b0f2-42e2fe199cd4.png" width:100px;>
