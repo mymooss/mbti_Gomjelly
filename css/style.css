@@ -9,6 +9,7 @@ body{
     height : 100vh;
     display: flex;
     font-family: 'SDSamliphopangche_Outline';
+    background-image: url('../img/bgi.png')
 }
 .cont{
     width : 100%;
@@ -20,7 +21,6 @@ body{
 
 .title-container{
     margin: auto;
-    background-color: pink;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -32,12 +32,16 @@ body{
 }
 
 .btn{
-    width : 300px;
-    margin : 10px;
+    width : 400px;
+    height:100px;
+    margin : 20px;
     background-color: lightgoldenrodyellow;
     color:black;
+    border:none;
 }
-
+.btn:hover{
+    background-color:rgb(231, 241, 189);
+}
 .score-container{
     position:absolute;
     display: flex;
@@ -48,7 +52,6 @@ body{
 
 .result-container{
     display: none;
-    background-color: white;
 }
 
 #result-img{
@@ -57,4 +60,11 @@ body{
 
 #type{
     display: none;
+}
+.btn:active, .btn:focus {
+    outline:none !important;
+    box-shadow:none !important;/*importand하는 이유는 우선순위가 부트스트랩이기 때문에 css를 우선순위로 설정해주기 위함.*/
+}
+#progress{
+    margin-top:20px;
 }

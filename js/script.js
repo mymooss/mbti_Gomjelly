@@ -125,7 +125,7 @@ function updateQuestion(){
         //explain.innerHTML = result[MBTI].explain;
         image.setAttribute('src',result[MBTI].img);
     } else {
-        progress.setAttribute('value',parseInt(num))
+        progress.setAttribute('value',parseInt(num-1))
         //pro.setAttribute('style',`width: calc(100/12*$(num)%);`)
         question.innerHTML = q[num].title;
         type.innerHTML = q[num].type;
